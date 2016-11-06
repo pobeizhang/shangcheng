@@ -1,0 +1,18 @@
+[ 2015-12-14T20:17:00+08:00 ]EXCEPTION: SELECT  *  FROM lashou_lashou_user WHERE  username = ?  LIMIT 1 ;BindParams:array (
+  0 => 'qqqq',
+)42S02;1146;Table 'hd_lashou.lashou_lashou_user' doesn't exist
+[ 2015-12-14T20:18:51+08:00 ]NOTICE: Invalid argument supplied for foreach()D:\wamp\www\shangcheng\Hdphp\Db\Mysql.php (690).
+[ 2015-12-14T20:18:51+08:00 ]EXCEPTION: SELECT  *  FROM lashou_goods_attr ga INNER JOIN lashou_type_attr ta ON ga.taid = ta.taid WHERE  ta.class=?  AND  gid IN () GROUP BY gtvalue ;BindParams:array (
+  0 => 1,
+)42000;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY gtvalue' at line 1
+[ 2015-12-14T20:22:28+08:00 ]EXCEPTION: Method Home\Controller\MemberController::my_payedadmin.php() does not exist
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: gidD:\wamp\www\shangcheng\App\Home\Controller\GoodsController.php (16).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: gnameD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (900).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: gnameD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (905).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: picD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (911).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: shoppriceD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (918).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: marketpriceD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (922).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: shoppriceD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (925).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: marketpriceD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (925).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Division by zeroD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (925).
+[ 2015-12-14T22:34:28+08:00 ]NOTICE: Undefined index: gidD:\wamp\www\shangcheng\Storage\view\compile\ee718b02a1111bfb309b30fb46dc9d5a.php (1008).

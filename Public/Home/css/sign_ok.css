@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+.creat-main{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.creat-ok{
+	padding: 100px 0px 70px;
+	text-align: center;
+}
+
+.correct-icon{
+	width: 47px;height: 47px;
+	vertical-align: top;
+	background: url(../images/bg.png) 0px -148px no-repeat;
+	display: inline-block;
+}
+
+.creat-ok span{
+	display: inline-block;
+	font-size: 30px;
+	font-family: "Microsoft Yahei";
+	color: #3D3D3D;
+	padding-left: 20px;
+	vertical-align: top;
+}
+
+.creat-ok p{
+	padding-top: 20px;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+}
+
+.creat-ok a{
+	margin-left: 8px;
+}
+
+.creat-ok-qrcode{
+	padding-bottom: 120px;
+}
+
+.qrcode-68{
+	width: 290px;height: 82px;
+	background: #FF6210;
+	margin: 0 auto;
+	position: relative;
+}
+
+.qrcode-68-text{
+	width: 178px;height: 47px;
+	float: left;
+	padding: 18px 0px 17px 17px;
+	color: white;
+}
+
+.qrcode-68-img{
+	float: right;
+	width: 72px;height: 72px;
+	padding: 5px 10px 5px 9px;
+	border-left: 1px dashed #FFB18E;
+}
+
+.qrcode-68-img span{
+	display: inline-block;
+	width: 68px;height: 68px;
+	padding: 2px;
+	color: white;
+}
+
+.qrcode-68 .left-dot{
+	width: 3px;height:77px;
+	position: absolute;
+	left: 0px;top: 1px;
+}
+
+.qrcode-68 .right-dot{
+	width: 3px;height:77px;
+	position: absolute;
+	right: 0px;top: 1px;
+}
+
+.qrcode-68 .left-dot i{
+	display: block;
+	width: 3px;height: 8px;
+	background: url(../images/bg.png) -118px -100px no-repeat;
+	margin-top: 3px;
+}
+
+.qrcode-68 .right-dot i{
+	display: block;
+	width: 3px;height: 8px;
+	background: url(../images/bg.png) -121px -100px no-repeat;
+	margin-top: 3px;
+}
+
+.creat-dot{
+	width: 10px;height: 100%;
+	position: absolute;
+	top: 0px;right: 86px;
+}
+
+.qrcode-68 .creat-dot i{
+	width: 10px;height: 4px;
+	display: block;
+}
+
+.qrcode-68 .creat-dot i.top{
+	background: url(../images/bg.png) -118px -92px no-repeat;
+}
+
+.qrcode-68 .creat-dot i.bottom{
+	margin-top: 74px;
+	background: url(../images/bg.png) -118px -96px no-repeat;
+}

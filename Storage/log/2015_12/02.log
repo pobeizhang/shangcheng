@@ -1,0 +1,17 @@
+[ 2015-12-02T00:06:12+08:00 ]EXCEPTION: Admin\Controller\ArticleController ä¸å­˜åœ¨
+[ 2015-12-02T00:08:25+08:00 ]EXCEPTION: Admin\Controller\ArticleController ä¸å­˜åœ¨
+[ 2015-12-02T08:25:45+08:00 ]NOTICE: Undefined index: tidD:\wamp\www\shangcheng\App\Admin\Controller\GoodsController.php (37).
+[ 2015-12-02T09:31:17+08:00 ]NOTICE: file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T09:31:17+08:00 ]NOTICE: file_get_contents(http://ip.taobao.com/service/getIpInfo.php?ip=myip) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T09:31:28+08:00 ]NOTICE: file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T09:31:28+08:00 ]NOTICE: file_get_contents(http://ip.taobao.com/service/getIpInfo.php?ip=myip) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T09:31:30+08:00 ]NOTICE: file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T09:31:30+08:00 ]NOTICE: file_get_contents(http://ip.taobao.com/service/getIpInfo.php?ip=myip) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T09:31:30+08:00 ]NOTICE: file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T09:31:30+08:00 ]NOTICE: file_get_contents(http://ip.taobao.com/service/getIpInfo.php?ip=myip) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ D:\wamp\www\shangcheng\Hdphp\Client\client.php (112).
+[ 2015-12-02T11:48:28+08:00 ]EXCEPTION: INSERT INTO lashou_goods_attr (`taid`,`gtvalu`,`added`,`gid`)VALUES(?,?,?,?) ;BindParams:array (
+  0 => 0,
+  1 => 'ç™½è‰²',
+  2 => '12',
+  3 => '1',
+)42S22;1054;Unknown column 'gtvalu' in 'field list'

@@ -1,0 +1,681 @@
+@charset "utf-8";
+/* CSS Document */
+.main-content {
+    width: 100%;
+    padding-top: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.sort-filter {
+    border: 1px solid #E0E0E0;
+    background-color: #FFF;
+}
+
+.sf-hot {
+    background-color: #F6F6F6;
+    height: 20px;
+    padding: 10px 19px;
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 15px;
+    font-family: "宋体";
+}
+
+.sort-filter h3 {
+    width: 60px;height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    float: left;
+    position: relative;
+}
+
+.sf-hot ul {
+    height: 20px;
+    overflow: hidden;
+}
+
+.sf-hot li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+}
+
+.sf-hot a.hot {
+    color: #FF7E00;
+}
+
+.sf-hot a {
+    display: inline-block;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.sf-hot span {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    padding: 0px 3px;
+    background-color: #F55E4F;
+    color: #FFF;
+    margin-left: 4px;
+    border-radius: 2px;
+}
+
+.sf-breadcrumbs {
+    padding-bottom: 10px;
+    height: 22px;
+    margin: -5px 19px 15px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.sfbc-item {
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    float: left;
+    cursor: default;
+    position: relative;
+    z-index: 1;
+}
+
+.sfbc-item-title {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    border: 1px solid #E0E0E0;
+    /*border-bottom:1px  solid white;*/
+    padding: 0px 6px 0px 10px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 2;
+}
+
+.sfbc-item-title font {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+.item-icon {
+    width: 5px;
+    height: 3px;
+    background:url(../images/bg.png) -100px -131px no-repeat;
+    margin: 10px 0px 0px 4px;
+}
+.item-icon, .item-close, .crumb-icon {
+    display: inline-block;
+    font-size: 0px;
+    line-height: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.item-close {
+    width: 8px;height: 8px;
+    background:url(../images/bg.png) -120px -165px no-repeat;
+    margin: 7px 0px 0px 6px;
+}
+
+.sfbc-item-option {
+    display: none;
+    padding: 10px 0px 6px 10px;
+    width: 430px;
+    border: 1px solid #E0E0E0;
+    background-color: #FFF;
+    position: absolute;
+    left: 0px;top: 21px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px #E0E0E0;
+}
+
+.sfbc-item-option a {
+    display: inline-block;
+    /*规定段落中的文本不进行换行：*/
+    white-space: nowrap;
+    padding: 0px 6px;
+    color: #506EAA;
+    width: 90px;height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px 5px 4px 0px;
+}
+
+.sfbc-item-option a span {
+    padding-left: 5px;
+    color: #B0B0B0;
+    font-family: "宋体";
+}
+
+.sf-content {
+    padding: 0px 19px;
+    margin-bottom: 10px;
+    font-family: "宋体";
+}
+
+.sf-link {
+    height: 24px;
+    overflow: hidden;
+}
+
+.sf-content .sf-unfold {
+    padding-left: 60px;
+}
+
+.sf-unfold {
+    height: auto;
+    overflow: visible;
+}
+
+.sort-filter .filter-more {
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 0px 0px 15px;
+    font-family: "宋体";
+}
+
+.filter-more {
+    float: right;
+    background-color: #F4F4F4;
+    padding: 0px 8px;
+    /*margin: 2px 0px 5px;*/
+    color: #565656;
+    line-height: 18px;
+    border-radius: 2px;
+}
+
+.filter-more span {
+    display: inline-block;
+    float: left;
+}
+
+.filter-more .triangle {
+    display: inline-block;
+    float: none;
+    margin: 8px 0px 0px 4px;
+}
+
+.triangle {
+    display: none;
+    width: 7px;height: 4px;
+    overflow: hidden;
+    float: left;
+    vertical-align: top;
+    margin: 10px 0px 0px 6px;
+    background:url(../images/bg.png) -74px -110px no-repeat;
+}
+
+.sf-link li, .sf-select-content li {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    vertical-align: top;
+    padding: 0px 5px 4px 0px;
+}
+
+.sf-link li a.current{
+    background-color: #6486CA;
+    color: #FFF;
+}
+
+.sf-link li a.current span{
+	color: white;
+}
+
+.sf-link li a{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0px 6px;
+    height: 20px;
+    color: #506EAA;
+}
+
+.sf-link li span{
+    padding-left: 5px;
+    color: #B0B0B0;
+}
+
+.sf-firstsub {
+    margin: -5px 19px 15px 79px;
+    background-color: #F9F9F9;
+    padding: 10px 10px 6px;
+    font-family: "宋体";
+}
+
+.sf-firstsub .filter-more {
+    background-color: #FFF;
+}
+
+.sf-location, .sf-subway, .sf-circle, .sf-school, .sf-area {
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 3px 0px -2px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.sf-subway {
+    background:url(../images/bg.png) -189px -113px no-repeat;
+}
+
+.sf-location {
+    background:url(../images.bg.png) -189px -81px no-repeat;
+}
+
+.sf-push {
+    display: block;
+    height: 26px;
+    text-align: center;
+    font-family: "宋体";
+}
+
+.sf-push span {
+    display: inline-block;
+    height: 18px;
+    padding: 5px 15px 3px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    vertical-align: top;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.sf-push em {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 12px;
+    color: #565656;
+}
+
+.sf-push em.close {
+    display: none;
+}
+
+.sf-push b {
+    vertical-align: top;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #565656;
+}
+
+.sf-push i, .address-icon {
+    display: inline-block;
+    width: 9px;height: 5px;
+    overflow: hidden;
+    background:url(../images/bg.png) -184px -18px;
+    vertical-align: top;
+    margin: 7px 0px 0px 5px;
+}
+
+.sf-contentmore {
+    clear: both;
+}
+
+.sf-sequence {
+    padding: 10px 19px;
+    height: 22px;
+    border-top: 1px solid #EFEFEF;
+    font-family: "宋体";
+}
+
+.sf-sequence .fl {
+    height: 20px;
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+    background-color: #F6F6F6;
+}
+
+.fl {
+    float: left;
+}
+
+.sf-sequence a.current {
+    color: #FF7E00;
+    background-color: #FFF;
+}
+
+.sf-sequence a.left {
+    border-left-color: #EFEFEF;
+}
+
+.sf-sequence a {
+    display: inline-block;
+    width: auto;height: 20px;
+    float: left;
+    line-height: 20px;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #EFEFEF;
+    padding: 0px 10px;
+    color: #565656;
+    font-size: 12px;
+}
+
+.sf-sequence span {
+    display: inline-block;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.sf-sequence i.up {
+    background:url(../images/bg.png) -53px -133px no-repeat;
+}
+
+.sf-sequence i.down {
+    background:url(../images/bg.png) -46px -133px no-repeat;
+}
+
+.sf-sequence i {
+    display: inline-block;
+    width: 7px;height: 8px;
+    float: left;
+    overflow: hidden;
+    margin: 7px 0px 0px 5px;
+}
+
+.sf-sequence label {
+    float: left;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 25px;
+}
+
+.sf-sequence label input {
+    float: left;
+    vertical-align: top;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.sf-sequence label em {
+    float: left;
+    display: inline-block;
+    font-size:12px;
+    color: #565656;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+.list-content {
+    width: 965px;
+    float: left;
+    overflow: hidden;
+}
+
+.goods-list {
+    width: 982px;
+    margin-left: -17px;
+}
+
+.goods {
+    width: 308px;height: 308px;
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    float: left;
+    margin: 20px 0px 0px 17px;
+    font-family: 'Microsoft Yahei';
+}
+
+.goods-img {
+    display: block;
+    width: 308px;height: 196px;
+    position: relative;
+}
+
+.goods-place {
+    display: block;
+    font-size: 14px;
+    width: 280px;
+     opacity: 0;
+    padding: 8px 14px;
+    max-height: 117px;
+    line-height: 24px;
+    color: #FFF;
+    overflow: hidden;
+    background-color: #000;
+    transition: opacity 0.5s ease-out 0s;
+    position: absolute;
+    left: 0px;bottom: 0px;
+}
+
+.goods h3 a.goods-name {
+    height: 24px;
+    text-indent: 7px;
+}
+.goods h3 a.goods-name{
+    font-size: 15px;
+    color: #3D3D3D;
+    line-height: 24px;
+}
+.goods h3 a {
+    display: block;
+    width: 100%;
+    transition: color 0.2s ease 0s;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.goods-text {
+    text-indent: 14px;
+    height: 20px;
+    font-size: 14px;
+    color: #727272;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.goods-info{
+    height: 30px;
+    padding: 10px 15px 0px;
+    color: #B0B0B0;
+    overflow: hidden;
+    font-family: arial;
+}
+
+.goods-info span.price, .index-goods-info span.price {
+    display: inline-block;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FF7E00;
+    padding-right: 15px;
+    float: left;
+    vertical-align: top;
+}
+
+.goods-info em, .index-goods-info em {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: top;
+    padding: 8px 2px 0px 0px;
+}
+
+.app-price em {
+    font: 700 12px/19px arial;
+    padding: 0px 2px 0px 3px;
+    float: left;
+}
+
+.goods-info span.money{
+    display: inline-block;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 10px;
+    vertical-align: top;
+    float: left;
+}
+
+.goods-info del{
+    font-family: "宋体";
+    padding-left: 2px;
+}
+
+.goods-info span.number{
+    font-family: Microsoft Yahei;
+    display: inline-block;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 8px;
+    vertical-align: top;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.list-sidebar {
+    padding-top: 20px;
+    width: 225px;
+    float: right;
+}
+
+.list-sidebarcen {
+    width: 198px;
+    border: 1px solid #E0E0E0;
+    padding: 10px 13px 7px 12px;
+    background-color: #FFF;
+    margin-bottom: 12px;
+}
+
+.list-sidebarcen h3 {
+    height: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.list-sidebarcen h3 span {
+    display: inline-block;
+    font-size: 15px;
+    float: left;
+    color: #3D3D3D;
+    font-family:'Microsoft Yahei';
+}
+
+.list-sidebarcen .small-goods {
+    float: none;
+    margin-left: 0px;
+    padding: 12px 0px 3px;
+}
+
+.small-goods {
+    /*float: left;*/
+    width: 198px;
+    font-family: "宋体";
+}
+
+.small-goods-img {
+    display: block;
+    width: 100%;height: 126px;
+    position: relative;
+}
+
+.list-sidebar .small-goods-img img {
+    width: 198px;
+    height: 126px;
+}
+
+.small-goods h4 a {
+    display: block;
+    width: 100%;height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.small-goods-name {
+    font-size: 14px;
+    color: #3D3D3D;
+    text-indent: -7px;
+    font-family: 'Microsoft Yahei';
+}
+
+.small-goods-text {
+    font-size: 12px;
+    color: #727272;
+}
+
+.small-goods h4 {
+    width: 100%;
+    height: 40px;
+    font-weight: 400;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.small-goods-info {
+    width: 100%;height: 24px;
+    color: #B0B0B0;
+    padding-top: 4px;
+    overflow: hidden;
+    font-family: arial;
+}
+
+.small-goods-info span.price{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7E00;
+    padding-right: 15px;
+    float: left;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.small-goods-info em{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+    padding: 3px 2px 0px 0px;
+    font-weight: 400;
+}
+
+.small-goods-info span.money{
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    padding-top: 6px;
+    vertical-align: top;
+    float: left;
+}
+
+.small-goods-info del{
+    font-family: "宋体";
+    padding-left: 2px;
+}
+
+.small-goods-info span.number{
+    font-family: "宋体";
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    padding-top: 5px;
+    vertical-align: top;
+    float: right;
+}
+
+.small-goods-info i{
+    display: inline-block;
+    color: #EC361E;
+    padding-left: 2px;
+    vertical-align: top;
+}
